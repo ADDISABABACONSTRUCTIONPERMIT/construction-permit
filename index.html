@@ -10,18 +10,18 @@
       padding: 0;
       box-sizing: border-box;
     }
-    body, html {
+    html, body {
       width: 100%;
-      min-height: 100%;
+      height: auto !important;
+      min-height: 100vh;
       background-color: #000;
-      overflow-y: auto;
+      overflow-y: scroll !important;
       -webkit-overflow-scrolling: touch;
     }
     .image-container {
       width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
+      height: auto;
+      display: block;
     }
     img {
       width: 100%;
