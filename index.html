@@ -12,17 +12,19 @@
     }
     html, body {
       width: 100%;
-      height: auto !important;
-      min-height: 100vh;
-      background-color: #000;
-      overflow-y: scroll !important;
+      height: 100%;
+      background-color: #ffffff;
+      overflow-y: auto;
       -webkit-overflow-scrolling: touch;
     }
     .image-container {
       width: 100%;
-      height: auto;
-      display: block;
-      padding-bottom: 80px; /* Ensures the bottom footer is fully readable */
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      background-color: #ffffff;
     }
     img {
       width: 100%;
